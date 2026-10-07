@@ -1,17 +1,32 @@
 # 1. Instalação
-`CMD`
+`CMD computador`
 ```cmd
 npm init -y
 ```
 
-`CMD`
+`Terminal VScode`
+```cmd
+npm.cmd init -y
+```
+
+`CMD computador`
 ```cmd
 npm install socket.io
 ```
 
-`CMD`
+`Terminal VScode`
+```cmd
+npm.cmd install socket.io
+```
+
+`CMD computador`
 ```cmd
 npm install express
+```
+
+`Terminal VScode`
+```cmd
+npm.cmd install express
 ```
 
 # 2. Servidor (server.js)
