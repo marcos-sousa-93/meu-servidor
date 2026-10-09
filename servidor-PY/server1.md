@@ -1,5 +1,4 @@
-# server.py
-
+# servidor em python
 
 `import socketio`: Importa a biblioteca Socket.IO para comunicação em tempo real.
 <hr>
@@ -44,7 +43,9 @@
 <hr>
 
 `web.run_app(app, host="0.0.0.0", port=5000)`: Inicia o servidor na porta 5000.
+<hr>
 
+### server.py
 ```python
 import socketio
 from aiohttp import web
@@ -72,4 +73,16 @@ async def disconnect(sid, reason):
 
 if __name__ == "__main__":  
     web.run_app(app, host="0.0.0.0", port=5000)  
+```
+<hr>
+
+### Instala o socket.io
+```cmd
+pip install "python-socketio[aiohttp]"
+```
+<hr>
+
+### inicia o servidor python
+```cmd
+python server.py
 ```
